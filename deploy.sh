@@ -4,7 +4,9 @@
 set -e
 
 # build
-yarn serve
+npm install
+npm run serve
+npm run build
 
 # navigate into the build output directory
 cd dist
