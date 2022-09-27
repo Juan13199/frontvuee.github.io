@@ -1,0 +1,11 @@
+.content-header {
+  height: 6.25rem;
+}
+.logo img {
+  width: 70%;
+}.logo a:hover {
+  text-decoration: none;
+}
+.fs-sm {
+  font-size: .6rem!important;
+}
