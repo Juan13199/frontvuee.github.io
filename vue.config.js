@@ -1,8 +1,8 @@
 const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
-  publicPath:process.env.NODE_ENV==='frontVue'
+module.exports = {
+  publicPath:process.env.NODE_ENV==='production'
   ?'/frontvuee.github.io/'
   :'/'
  
-})
+}
 
